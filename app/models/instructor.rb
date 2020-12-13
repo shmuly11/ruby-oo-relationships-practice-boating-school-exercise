@@ -57,14 +57,7 @@ class Instructor
     end
 
     def all_students
-       # binding.pry
-       #students = []
         self.boatingtests.collect {|test| test.student}.uniq
-           # binding.pry 
-           #students << test.student
-           #test.student.
-        #end
-        #students.uniq
     end
 
 end
